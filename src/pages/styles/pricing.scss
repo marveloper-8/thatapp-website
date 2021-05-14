@@ -1,0 +1,202 @@
+.pricing{
+    position:relative;
+    overflow-y:hidden;
+    .landing{
+        padding:160px 25vw 0 25vw;
+        .head{
+            margin-bottom:130px;
+            text-align:center;
+            .font-40{
+                margin-bottom:18px;
+            }
+        }
+        .quadruple-container{
+            .item{
+                border: 1px solid #FCE588;
+                box-sizing: border-box;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+                border-radius: 3px;
+                .popular{
+                    border-radius:2px 2px 0 0;
+                    text-align:center;
+                    padding:4px;
+                    opacity:0;
+                }
+                .content{
+                    padding:6px 24px 86px 24px;
+                    .name{
+                        margin-bottom:8px;
+                    }
+                    .price{
+                        margin:32px 0 24px 0;
+                    }
+                    .features{
+                        margin-top:32px;
+                        div{
+                            margin-bottom:12px;
+                            display:flex;
+                            align-items:center;
+                            img{
+                                margin-right:16px;
+                            }
+                        }
+                        div:last-child{
+                            margin:0;
+                        }
+                    }
+                }
+            }
+            .popular-item{
+                .popular{
+                    opacity:1;
+                }
+            }
+        }
+    }
+    .plan-details{
+        padding:64px 25vw 100px 25vw;
+        .head{
+            text-align:center;
+            margin-bottom:62px;
+        }
+        .double-container-1-4{
+            .item{
+                .inner{
+                    padding:24px 0 55px 0;
+                    margin-bottom:16px;
+                    border-radius:3px;
+                    .bold{
+                        margin-bottom:22px;
+                    }
+                    .tab{
+                        height:57px;
+                        display:flex;
+                        align-items:center;
+                    }
+                }
+                
+            }
+            .quadruple-container2{
+                .item{
+                    text-align:center;
+                    .tab{
+                        justify-content:space-around;
+                    }
+                }
+            }
+        }
+    }
+    .faq{
+        padding:60px 25vw;
+        position:relative;
+        .head{
+            margin-bottom:96px;
+            text-align:center;
+            .font-32{
+                margin-bottom:24px;
+            }
+        }
+        .accordion:last-child{
+            border:none;
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start laptop version */
+    @media screen and (max-width:2450px){
+        .landing{
+            padding:160px 83px 0 83px;
+        }
+        .plan-details{
+            padding:64px 80px 100px 80px;
+        }
+        .faq{
+            padding:60px 272px;
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start tablet version */
+    @media screen and (max-width:1024px){
+        .landing{
+            padding:160px 30px 0 30px;
+            .quadruple-container{
+                .item{
+                    margin-bottom:30px;
+                }
+            }
+        }
+        .plan-details{
+            padding:64px 30px 100px 30px;
+            .plan-details-container{
+                width:100vw;
+                position:relative;
+                overflow-y:scroll;
+                // padding-right:100px;
+                .double-container-1-4{
+                    width:1000px;
+                    // margin:0 200px 0 0;
+                }
+            }
+        }
+        .faq{
+            padding:60px 100px;
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start mobile version */
+    @media screen and (max-width:600px){
+        .landing{
+            padding:100px 30px 0 30px;
+            .quadruple-container{
+                grid-template-columns:1fr;
+                .item{
+                    margin-bottom:30px;
+                }
+            }
+        }
+        .plan-details{
+            padding:30px 30px 100px 30px;
+        }
+        .faq{
+            padding:60px 20px;
+        }
+    }
+}

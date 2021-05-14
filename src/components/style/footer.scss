@@ -1,0 +1,92 @@
+.footer{
+    display:grid;
+    grid-template-columns:2fr 3fr;
+    justify-content:space-between;
+    padding:78px 25vw 60px 25vw;
+    .logo{
+        height:55px;
+    }
+    .about{
+        margin-top:30px;
+    }
+    .copyright{
+        margin-top:55px;
+    }
+    .head{
+        margin-bottom:6px;
+    }
+    .item{
+        margin-top:18px;
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start laptop version */
+    @media screen and (max-width:2450px){
+        padding:78px 88px 60px 88px;
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start tablet version */
+    @media screen and (max-width:1024px){
+        padding:78px 40px 60px 40px;
+        grid-template-columns:1fr;
+        .about{
+            padding-right:400px;
+        }
+        .triple-container{
+            margin-top:30px;
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start mobile version */
+    @media screen and (max-width:600px){
+        padding:78px 20px 60px 20px;
+        grid-template-columns:1fr;
+        .about{
+            padding-right:0;
+        }
+        .triple-container{
+            margin-top:0;
+            .item-container{
+                margin-top:30px;
+            }
+        }
+    }
+}

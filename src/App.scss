@@ -1,0 +1,273 @@
+.App {
+  font-size:16px;
+  color:#515151;
+  font-family: 'Mulish', sans-serif;
+  padding:0;
+  margin:0;
+  position:relative;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  // responsiveness
+  .desktop{
+    display:block;
+  }
+  .mobile, .tablet{
+    display:none;
+  }
+  // fonts
+  code{
+    font-family: 'Fira Code', monospace;
+    background:#ffb48f;
+  }
+  .link{
+    text-decoration:none;
+    color:#515151;
+  }
+  .heading{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-8{
+    font-size:8px;
+  }
+  .font-10{
+    font-size:10px;
+  }
+  .font-12{
+    font-size:12px;
+  }
+  .font-14{
+    font-size:14px;
+  }
+  .font-16{
+    font-size:16px;
+  }
+  .font-18{
+    font-size:18px;
+  }
+  .font-20{
+    font-size:20px;
+  }
+  .font-24{
+    font-size:24px;
+  }
+  .font-25{
+    font-size:25px;
+  }
+  .font-30{
+    font-size:30px;
+  }
+  .font-32{
+    font-size:32px;
+  }
+  .font-35{
+    font-size:35px;
+  }
+  .font-38{
+    font-size:38px;
+  }
+  .font-40{
+    font-size:40px;
+  }
+  .font-45{
+    font-size:45px;
+  }
+  .font-48{
+    font-size:48px;
+  }
+  .font-50{
+    font-size:50px;
+  }
+
+  .bold{
+    font-weight:bold;
+  }
+  .bolder{
+    font-weight:bolder;
+  }
+
+  // input
+  input, button, select{
+    outline:none;
+    color:inherit;
+  }
+  .full-input{
+    width:100%;
+  }
+
+  // background
+  .bg-1{
+    background:#F7C948;
+    color:#fff;
+  }
+  .bg-2{
+    background:#FFFDF7;
+  }
+  .bg-3{
+    background:#FFFAEB;
+  }
+  .bg-4{
+    background:#27AB83;
+    color:#fff;
+  }
+  .bg-5{
+    background:#FFFDFA;
+  }
+  .bg-6{
+    background:#EFFCF6;
+  }
+  .bg-7{
+    background:#FFFAEB;
+  }
+  .bg-none{
+    background:none;
+  }
+
+  .bg-bd1-1{
+    background:#F7C948;
+    color:#fff;
+    border:1px #F7C948 solid;
+  }
+  .bg-bd0-none{
+    background:none;
+    border:none;
+  }
+
+  // color
+  .color-1{
+    color:#F7C948;
+  }
+
+  .color-black-2{
+    color:#626262;
+  }
+
+  .color-2{
+    color:#F0B429;
+  }
+  .color-3{
+    color:#27AB83;
+  }
+  .color-4{
+    color:#f00;
+  }
+
+  // containers
+  .double-container{
+    display:grid;
+    grid-template-columns:repeat(2, 47.5%);
+    justify-content:space-between;
+  }
+  .double-container-2-1{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    justify-content:space-between;
+  }
+  .double-container-1-4{
+    display:grid;
+    grid-template-columns:1fr 4fr;
+    justify-content:space-between;
+  }
+  
+  .triple-container{
+    display:grid;
+    grid-template-columns:repeat(3, 32%);
+    justify-content:space-between;
+  }
+  .quadruple-container{
+    display:grid;
+    grid-template-columns:repeat(4, 22.5%);
+    justify-content:space-between;
+  }
+  .quadruple-container2{
+    display:grid;
+    grid-template-columns:repeat(4, 17.5%);
+    justify-content:space-between;
+  }
+
+
+  // elements
+  .double-elem{
+    width:97.5%;
+  }
+  
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+
+  /* start tablet version */
+  @media screen and (max-width:1024px){
+    .desktop{
+      display:none;
+    }
+    .tablet, .mobile{
+      display:block;
+    }
+    .double-container-2-1{
+      grid-template-columns:1fr 1fr;
+    }
+    .double-container-1-4{
+      grid-template-columns:1fr 5fr;
+    }
+  
+    .triple-container{
+      display:grid;
+      grid-template-columns:repeat(3, 32%);
+      justify-content:space-between;
+    }
+    .quadruple-container{
+      display:grid;
+      grid-template-columns:repeat(3, 30%);
+      justify-content:space-between;
+    }
+  }
+  
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+  /* break */
+
+  /* start mobile version */
+  @media screen and (max-width:600px){
+    .desktop, .tablet, .mobile-alt{
+      display:none;
+    }
+    .mobile{
+      display:block;
+    }
+    .double-container{
+      grid-template-columns:1fr;
+    }
+    .double-container-2-1{
+      grid-template-columns:1fr;
+    }
+    .double-container-1-4{
+      grid-template-columns:1fr 4fr;
+    }
+  
+    .triple-container{
+      display:grid;
+      grid-template-columns:1fr;
+    }
+    .quadruple-container{
+      display:grid;
+      grid-template-columns:repeat(2, 49%);
+    }
+  }
+}

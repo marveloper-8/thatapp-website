@@ -1,0 +1,61 @@
+
+.accordion{
+    width:80%;
+    margin:20px auto;
+    padding:46px 0;
+    border-bottom: 1px solid #CFCFCF;
+    transition:.5s ease-in-out all;
+    .accordion-top{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        img{
+            height:24px;
+            cursor:pointer;
+            transition:.5s ease-in-out all;
+        }
+        img.active{
+            transform:rotate(225deg);
+            transition:.5s ease-in-out all;
+        }
+    }
+    .accordion-content{
+        transition:.5s ease-in-out all;
+        height:0;
+        overflow-y:hidden;
+        padding:0;
+    }
+    .accordion-content-open{
+        transition:.5s ease-in-out all;
+        height:auto;
+        padding-top:32px;
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start mobile version */
+    @media screen and (max-width:600px){
+        width:100%;
+        padding:20px 0;
+        .accordion-top{
+            .bold{
+                span{
+                    font-size:16px!important;
+                    padding-right:150px;
+                }
+                
+            }
+        }
+    }
+}

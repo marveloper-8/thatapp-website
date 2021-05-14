@@ -1,0 +1,83 @@
+.get-started{
+    padding:175px 25vw;
+    .bg-3{
+        width:100%;
+        text-align:center;
+        position:relative;
+        margin:auto;
+        .inner{
+            padding:50px 285px;
+            .text{
+                margin:32px 0 56px 0;
+            }
+        }
+    }
+        
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start laptop version */
+    @media screen and (max-width:2450px){
+        padding:175px 163px;
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start tablet version */
+    @media screen and (max-width:1024px){
+        padding:175px 88px;
+        .bg-3{
+            .inner{
+                padding:50px 100px;
+            }
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start mobile version */
+    @media screen and (max-width:600px){
+        padding:50px 20px;
+        .bg-3{
+            .inner{
+                padding:50px 20px;
+                .text{
+                    margin:20px 0;
+                }
+            }
+        }
+    }
+}

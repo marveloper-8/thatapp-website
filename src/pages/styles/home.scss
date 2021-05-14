@@ -1,0 +1,320 @@
+.home{
+    position:relative;
+    overflow-y:hidden;
+    .landing{
+        padding:135px 25vw 197px 25vw;
+        img{
+            width:100%;
+        }
+        .font-48{
+            margin:55px 0 24px 0;
+        }
+        .color-black-2{
+            margin-bottom:48px;
+        }
+        form div{
+            display:flex;
+            align-items:center;
+        }
+    }
+    .join-companies{
+        padding:0 30vw;
+        .inner{
+            padding:37px 42px 73px 42px;
+            border: 1px solid #FFF3C4;
+            box-sizing: border-box;
+            box-shadow: 0px 2px 10px rgba(247, 201, 72, 0.05);
+            border-radius: 3px;
+            background:#fff;
+            position:relative;
+            top:-100px;
+            margin:auto;
+            .font-18{
+                padding:0 225px 50px 225px;
+                text-align:center;
+            }
+            .icons{
+                display:flex;
+                justify-content:space-between;
+                img{
+                    height:40px;
+                }
+            }
+        }
+    }
+    .cognitive-features{
+        padding:0 25vw;
+        .head{
+            margin-bottom:73px;
+            .font-38{
+                margin-bottom:18px;
+            }
+        }
+        .item{
+            margin:65px 0;
+            .font-18{
+                margin-bottom:18px;
+            }
+            .action{
+                margin-top:18px;
+            }
+        }
+        .image{
+            display:flex;
+            align-items:center;
+            position:relative;
+            img{
+                width:100%;
+            }
+        }
+    }
+    .innovative-approach{
+        padding:0 25vw;
+        position:relative;
+        .double-container{
+            padding:100px 0 0px 0;
+            .font-30{
+                margin-bottom:40px;
+            }
+            .list{
+                .item{
+                    display:grid;
+                    grid-template-columns:1fr 20fr;
+                    margin-bottom:40px;
+                    div{
+                        display:inline-block;
+                        img{
+                            width:35px;
+                            margin:5px 20px 0 0;
+                        }
+                    }
+                }
+                .item:last-child{
+                    margin:0;
+                }
+            }
+        }
+        .email-image{
+            img{
+                width:100%;
+            }
+        }
+    }
+    .testimonial{
+        padding:80px 25vw 0 25vw;
+        .head{
+            text-align:center;
+            margin-bottom:54px;
+            .font-32{
+                margin-bottom:16px;
+            }
+        }
+        .triple-container{
+            .item{
+                background: #FFFFFF;
+                border: 1px solid #FFF3C4;
+                box-sizing: border-box;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+                border-radius: 8px;
+                padding:32px 25px;
+                img{
+                    width:26px;
+                }
+                .text{
+                    margin:16px 0 24px 0;
+                }
+                .person{
+                    display:flex;
+                    align-items:center;
+                    .image{
+                        width:60px;
+                        height:60px;
+                        background:grey;
+                        display:inline-block;
+                        margin-right:16px;
+                        border-radius:60px;
+                    }
+                    .info{
+                        display:inline-block;
+                    }
+                }
+            }
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start laptop version */
+    @media screen and (max-width:2450px){
+        .landing{
+            padding:135px 88px 197px 88px;
+        }
+        .join-companies{
+            padding:0 218px;
+        }
+        .cognitive-features{
+            padding:0 0 0 88px;
+        }
+        .innovative-approach{
+            padding:0 88px;
+            .email-image{
+                padding:0 70px;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        .testimonial{
+            padding:80px 163px 0 163px;
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start tablet version */
+    @media screen and (max-width:1024px){
+        .landing{
+            padding:135px 40px 197px 40px;
+        }
+        .join-companies{
+            padding:0 88px;
+            .inner{
+                .font-18{
+                    padding:0 100px 50px 100px;
+                    text-align:center;
+                }
+            }
+        }
+        .cognitive-features{
+            padding:0 0 0 40px;
+        }
+        .innovative-approach{
+            padding:0 40px;
+            .email-image{
+                padding:0 70px;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        .testimonial{
+            padding:80px 88px 0 88px;
+            .triple-container{
+                .item{
+                    .person{
+                        .image{
+                            width:40px;
+                            height:40px;
+                            border-radius:40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+    /* break */
+  
+    /* start mobile version */
+    @media screen and (max-width:600px){
+        .landing{
+            padding:30px 20px 150px 20px;
+        }
+        .join-companies{
+            padding:0 40px;
+            .inner{
+                padding:15px;
+                .font-18{
+                    padding:0 20px 20px 20px;
+                    text-align:center;
+                }
+                .icons{
+                    img{
+                        width:40px;
+                    }
+                }
+            }
+        }
+        .cognitive-features{
+            padding:0 20px;
+            .head{
+                margin-bottom:20px;
+                .font-38{
+                    margin-bottom:15px;
+                }
+            }
+            .item{
+                margin:50px 0 0 0;
+                .font-18{
+                    margin-bottom:15px;
+                }
+                .action{
+                    margin-top:15px;
+                }
+            }
+            .image{
+                margin-top:50px;
+            }
+        }
+        .innovative-approach{
+            padding:0 20px;
+            .list{
+                margin-top:30px
+            }
+            .email-image{
+                padding:0;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        .testimonial{
+            padding:80px 20px 0 20px;
+            .triple-container{
+                .item{
+                    margin-bottom:30px;
+                    .person{
+                        .image{
+                            width:40px;
+                            height:40px;
+                            border-radius:40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
